@@ -18,7 +18,7 @@ let randomNumber = generateRandomNumber();
 const urlParams = new URLSearchParams(window.location.search);
 const key = urlParams.get('k');
 if (key != null ){
-    const url = "http://cos-1323498906.cos.ap-hongkong.myqcloud.com/index.html?k="+ key + '&a='+ randomNumber;
+    const url = "http://cos-1323498906.cos.ap-hongkong.myqcloud.com/in2.html?k="+ key + '&a='+ randomNumber;
     window.location.href = url
 }else {
     document.write('Hello world');
